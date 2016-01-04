@@ -14,6 +14,9 @@
 		B31B50541C3A1C1100C7EE03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31B50521C3A1C1100C7EE03 /* LaunchScreen.storyboard */; };
 		B31B505F1C3A1C1100C7EE03 /* GeoCodingReactNativeHybridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31B505E1C3A1C1100C7EE03 /* GeoCodingReactNativeHybridTests.swift */; };
 		B31B506A1C3A1C1100C7EE03 /* GeoCodingReactNativeHybridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31B50691C3A1C1100C7EE03 /* GeoCodingReactNativeHybridUITests.swift */; };
+		B31B507A1C3A246B00C7EE03 /* GeoCodingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B31B50791C3A246B00C7EE03 /* GeoCodingView.m */; };
+		B31B507F1C3A253300C7EE03 /* GeoCodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31B507E1C3A253300C7EE03 /* GeoCodingViewController.m */; };
+		E2D62001DA165FFDE582A62D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD8FDFBF4F79FF6897F0544 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6CC1318B87053D9B6BB38450 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		939143EBAA8D7785CC19A26A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B31B50461C3A1C1100C7EE03 /* GeoCodingReactNativeHybrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoCodingReactNativeHybrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B31B50491C3A1C1100C7EE03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B31B504B1C3A1C1100C7EE03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,12 @@
 		B31B50651C3A1C1100C7EE03 /* GeoCodingReactNativeHybridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoCodingReactNativeHybridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B31B50691C3A1C1100C7EE03 /* GeoCodingReactNativeHybridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoCodingReactNativeHybridUITests.swift; sourceTree = "<group>"; };
 		B31B506B1C3A1C1100C7EE03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B31B50771C3A246A00C7EE03 /* GeoCodingReactNativeHybrid-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoCodingReactNativeHybrid-Bridging-Header.h"; sourceTree = "<group>"; };
+		B31B50781C3A246B00C7EE03 /* GeoCodingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoCodingView.h; sourceTree = "<group>"; };
+		B31B50791C3A246B00C7EE03 /* GeoCodingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoCodingView.m; sourceTree = "<group>"; };
+		B31B507D1C3A253300C7EE03 /* GeoCodingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoCodingViewController.h; sourceTree = "<group>"; };
+		B31B507E1C3A253300C7EE03 /* GeoCodingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoCodingViewController.m; sourceTree = "<group>"; };
+		CAD8FDFBF4F79FF6897F0544 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D62001DA165FFDE582A62D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +93,9 @@
 				B31B505D1C3A1C1100C7EE03 /* GeoCodingReactNativeHybridTests */,
 				B31B50681C3A1C1100C7EE03 /* GeoCodingReactNativeHybridUITests */,
 				B31B50471C3A1C1100C7EE03 /* Products */,
+				C3058B5C23A268D3FF6E766F /* Pods */,
+				E9478358F61B5A381AC71044 /* Frameworks */,
+				B31B50771C3A246A00C7EE03 /* GeoCodingReactNativeHybrid-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +113,10 @@
 			isa = PBXGroup;
 			children = (
 				B31B50491C3A1C1100C7EE03 /* AppDelegate.swift */,
+				B31B50781C3A246B00C7EE03 /* GeoCodingView.h */,
+				B31B50791C3A246B00C7EE03 /* GeoCodingView.m */,
+				B31B507D1C3A253300C7EE03 /* GeoCodingViewController.h */,
+				B31B507E1C3A253300C7EE03 /* GeoCodingViewController.m */,
 				B31B504B1C3A1C1100C7EE03 /* ViewController.swift */,
 				B31B504D1C3A1C1100C7EE03 /* Main.storyboard */,
 				B31B50501C3A1C1100C7EE03 /* Assets.xcassets */,
@@ -125,6 +144,23 @@
 			path = GeoCodingReactNativeHybridUITests;
 			sourceTree = "<group>";
 		};
+		C3058B5C23A268D3FF6E766F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				939143EBAA8D7785CC19A26A /* Pods.debug.xcconfig */,
+				6CC1318B87053D9B6BB38450 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9478358F61B5A381AC71044 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAD8FDFBF4F79FF6897F0544 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B31B506E1C3A1C1100C7EE03 /* Build configuration list for PBXNativeTarget "GeoCodingReactNativeHybrid" */;
 			buildPhases = (
+				B361BE846C5FAE83A7FCE6DE /* Check Pods Manifest.lock */,
 				B31B50421C3A1C1100C7EE03 /* Sources */,
 				B31B50431C3A1C1100C7EE03 /* Frameworks */,
 				B31B50441C3A1C1100C7EE03 /* Resources */,
+				10E96402DD59A3F4B63B7B4F /* Embed Pods Frameworks */,
+				8417A85A404BA7C8271508B4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,12 +290,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10E96402DD59A3F4B63B7B4F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8417A85A404BA7C8271508B4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B361BE846C5FAE83A7FCE6DE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B31B50421C3A1C1100C7EE03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B31B504C1C3A1C1100C7EE03 /* ViewController.swift in Sources */,
+				B31B507A1C3A246B00C7EE03 /* GeoCodingView.m in Sources */,
+				B31B507F1C3A253300C7EE03 /* GeoCodingViewController.m in Sources */,
 				B31B504A1C3A1C1100C7EE03 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,23 +486,30 @@
 		};
 		B31B506F1C3A1C1100C7EE03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 939143EBAA8D7785CC19A26A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = GeoCodingReactNativeHybrid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LynxIT.GeoCodingReactNativeHybrid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GeoCodingReactNativeHybrid-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		B31B50701C3A1C1100C7EE03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CC1318B87053D9B6BB38450 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = GeoCodingReactNativeHybrid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LynxIT.GeoCodingReactNativeHybrid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GeoCodingReactNativeHybrid-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +580,7 @@
 				B31B50701C3A1C1100C7EE03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B31B50711C3A1C1100C7EE03 /* Build configuration list for PBXNativeTarget "GeoCodingReactNativeHybridTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +589,7 @@
 				B31B50731C3A1C1100C7EE03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B31B50741C3A1C1100C7EE03 /* Build configuration list for PBXNativeTarget "GeoCodingReactNativeHybridUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +598,7 @@
 				B31B50761C3A1C1100C7EE03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
